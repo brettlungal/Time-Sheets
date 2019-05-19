@@ -1,14 +1,20 @@
 package com.example.mytimesheet;
 
+/*
+ * SOME CHANGE THATS WASNT THERE BEFORE
+ */
+
 public class LoggedWork {
 
     private String date;
     private double hours;
     private String id;
 
+    int doesNothing;
     public LoggedWork(){
         date = "";
         hours = -1;
+        doesNothing = 51;
     }
 
     public LoggedWork(String id , String date, double hours){
